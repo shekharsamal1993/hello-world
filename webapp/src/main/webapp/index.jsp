@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New User For Devops Course Registration In Bhubaneswar</h1>
+    <h1>New User For Devops Course Registration In Bhubaneswar Location </h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     <label for="Name"><b>Name</b></label>
