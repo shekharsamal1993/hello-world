@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /hello-world.war
+    destination: /usr/local/tomcat8/webapps
+ 
+file_exists_behavior: OVERWRITE    
+          
+hooks:
+  ApplicationStop:
+    - location: server_stop.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+    - location: server_uninsatll.sh
+      timeout: 300
+      runas: root 
+  AfterInstall:
+    - location: server_start.sh
+      timeout: 300
+      runas: root
+
