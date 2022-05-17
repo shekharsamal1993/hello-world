@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /hello-world.war
+  - source: /hello.war
     destination: /usr/local/tomcat8/webapps/
  
 file_exists_behavior: OVERWRITE    
@@ -13,7 +13,7 @@ hooks:
       timeout: 300
       runas: root
   BeforeInstall:
-    - location: server_uninsatll.sh
+    - location: server_uninstall.sh
       timeout: 300
       runas: root 
   AfterInstall:
