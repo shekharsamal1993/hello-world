@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo chmod +x /usr/local/tomcat8/webapps
+sudo chmod +x /usr/local/tomcat8/webapps/
 rm -f ./*.war
 
