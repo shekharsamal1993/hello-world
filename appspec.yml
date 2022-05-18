@@ -3,7 +3,7 @@ os: linux
 
 files:
 
-  - source: ./*.war
+  - source: /
     destination: /usr/local/tomcat8/webapps/
   - source: /webapp/src/main/webapp/WEB-INF/web.xml
     destination: /usr/local/tomcat8/webapps/
