@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
+  - source: /webapp/
     destination: /usr/local/tomcat8/webapps/
   - source: /webapp/src/main/webapp/index.jsp
     destination: /usr/local/tomcat8/webapps/
