@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /var/lib/jenkins/.m2/repository/com/example/maven-project/webapp/1.0-SNAPSHOT/webapp-1.0-SNAPSHOT.war
+  - source: /webapp/webapp.war
     destination: /usr/local/tomcat8/webapps/
   - source: /webapp/src/main/webapp/index.jsp
     destination: /usr/local/tomcat8/webapps/
